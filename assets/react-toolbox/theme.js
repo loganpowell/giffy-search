@@ -1,1 +1,0 @@
-module.exports={"RTChip":{"chip":"_3hYjZ","avatar":"LDKle","deletable":"_1Iko6","delete":"_39CMK","deleteIcon":"_2uaR7","deleteX":"pzVqK"},"RTAvatar":{"avatar":"_38EDJ","image":"_3bYD4","letter":"_2QFuT"}}
