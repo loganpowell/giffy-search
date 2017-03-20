@@ -11,7 +11,7 @@
     "clean": "rimraf dist",
     "build": "set NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "author": "logan",
   "license": "ISC",
