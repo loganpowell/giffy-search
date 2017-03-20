@@ -26,6 +26,10 @@ module.exports = {
         // order matters (right to left)
         use: ['style-loader', 'css-loader'],
         test: /\.css$/
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: 'file?name=public/fonts/[name].[ext]'
       }
     ]
   },
