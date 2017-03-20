@@ -5,6 +5,8 @@ import GifSpread from './components/gif_spread'
 import PillBox from './components/pill_box'
 import _ from 'lodash'
 import axios from 'axios'
+import 'bootstrap/dist/css/bootstrap.css'
+import '../style/style.css'
 
 const API_KEY = 'dc6zaTOxFJmzC'
 const ROOT_URL = `http://api.giphy.com/v1/gifs/search?q=`
