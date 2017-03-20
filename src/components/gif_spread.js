@@ -7,8 +7,10 @@ const GifSpread = (props) => {
   })
 
   return (
-    <div className="card-columns">
-      {gifTs}
+    <div className="cards-area">
+      <div className="card-columns">
+        {gifTs}
+      </div>
     </div>
   )
 }

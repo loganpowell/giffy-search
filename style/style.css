@@ -1,0 +1,44 @@
+* {
+  font-family: Patua One;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FAFAFA
+}
+
+.pill {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button .term {
+  font-size: 1.3em;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.search-area, .pills-area {
+  height: 100%;
+  padding: 10px 0;
+}
+
+.cards-area {
+}
+
+.card {
+  border-radius: 1px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  border-radius: 0;
+  font-family: Teko;
+  font-size: 1.2em;
+  color: #424244;
+}
+
+.card-img-top {
+  width: 100%;
+}
