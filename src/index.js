@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../style/style.css'
 
 const API_KEY = 'dc6zaTOxFJmzC'
-const ROOT_URL = 'http://api.giphy.com/v1/gifs/search?q='
+const ROOT_URL = 'https://api.giphy.com/v1/gifs/search?q='
 
 class App extends Component {
   constructor(props) {
